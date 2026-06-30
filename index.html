@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frome Media &amp; Design | Frome, Somerset</title>
+  <meta name="description" content="A small design studio in Frome — websites, branding, marketing and SEO for local businesses.">
+  <meta name="theme-color" content="#5688C7">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Frome Media &amp; Design">
+  <meta property="og:description" content="Bold brand. Big results. Built in Frome.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:url" content="index.html">
+  <meta property="og:locale" content="en_GB">
+  <link rel="canonical" href="index.html">
+
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/simple.css">
+</head>
+<body>
+
+  <header class="simple-header">
+    <nav class="simple-nav" aria-label="Main navigation">
+      <a href="index.html" class="simple-nav__logo" aria-label="Frome Media &amp; Design">
+        <img src="assets/logo.png" alt="Frome Media &amp; Design logo" width="140" height="56" loading="eager">
+      </a>
+      <div class="simple-nav__actions">
+        <a href="portfolio.html" class="simple-nav__btn">Portfolio</a>
+        <a href="#contact" class="simple-nav__btn simple-nav__btn--fill">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="simple-hero" id="top" aria-labelledby="hero-title">
+      <div class="simple-hero__media" aria-hidden="true">
+        <!-- Shared with home.html — assets/hero-video.mp4 and assets/hero-poster.jpg -->
+        <video
+          class="simple-hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="assets/hero-poster.jpg"
+        >
+          <source src="assets/hero-video.mp4" type="video/mp4">
+        </video>
+        <div class="simple-hero__scrim"></div>
+      </div>
+
+      <div class="simple-hero__content">
+        <h1 class="simple-hero__title" id="hero-title">Bold brand. Big results. Built in Frome.</h1>
+      </div>
+    </section>
+
+    <section class="simple-services" id="services" aria-labelledby="services-label">
+      <div class="container reveal">
+        <p class="simple-services__intro" id="services-label">
+          We're a small design studio based in Frome, helping local businesses look as good as they are.
+        </p>
+        <p class="simple-services__list">
+          <span class="simple-services__item">Web Development</span><span class="simple-services__sep" aria-hidden="true"> · </span>
+          <span class="simple-services__item">Logo &amp; Brand Design</span><span class="simple-services__sep" aria-hidden="true"> · </span>
+          <span class="simple-services__item">Online Marketing</span><span class="simple-services__sep" aria-hidden="true"> · </span>
+          <span class="simple-services__item">SEO</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="simple-contact" id="contact" aria-labelledby="contact-heading">
+      <div class="simple-contact__inner reveal">
+        <p class="simple-contact__eyebrow">Get in touch</p>
+        <h2 class="simple-contact__heading" id="contact-heading">We'd love to hear from you.</h2>
+        <p class="simple-contact__text">Drop us a line about your project — no pressure, just a friendly chat.</p>
+        <a href="mailto:info@frome.media" class="simple-contact__email">info@frome.media</a>
+        <p class="simple-contact__location">Frome, Somerset, UK</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="simple-footer">
+    <p class="simple-footer__copy">&copy; <span id="year"></span> Frome Media &amp; Design</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="js/simple.js"></script>
+</body>
+</html>
