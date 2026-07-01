@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Shared brand tokens — imported by all pages
+   Edit colours and fonts here; changes apply site-wide.
+   ========================================================================== */
+
+:root {
+  --color-ink: #251101;
+  --color-mist: #BFBDC1;
+  --color-magenta: #D81159;
+  --color-deepblue: #2C5784;
+  --color-blue: #5688C7;
+  --color-white: #FFFFFF;
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Space Grotesk', system-ui, sans-serif;
+  --font-accent: 'Playfair Display', Georgia, serif;
+  --font-hand: 'Pacifico', cursive;
+
+  --container-max: 72rem;
+  --nav-height: 5rem;
+  --nav-edge: clamp(1.25rem, 4vw, 2rem);
+  --radius-pill: 999px;
+  --radius-card: 1rem;
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-base: 0.35s var(--ease-out-expo);
+}
